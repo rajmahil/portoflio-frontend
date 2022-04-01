@@ -1,0 +1,49 @@
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+    font-family: lato, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+   /* cursor: url("../public/Images/cursor.svg"), auto;	 */
+  }
+
+
+  .HeroContainer {
+    width: 100%;
+  height: 100vh;
+  background: #f5f1e1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../public/Images/HeroImage.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  }
+
+.SectionContainer{
+  width: auto;
+  padding: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #cc1310;
+  background-image: url('../public/Images/SectionBackground.png');
+}
+/* 
+.TestBackgroundImage {
+  width: 100%;
+  max-width: 1250px;
+  display: flex;
+  flex-direction: row;
+  background-image: url('../public/Images/TestBackgroundImg.png');
+  background-size: contain no-repeat;
+  background-position: center;
+} */
+
+

@@ -9,9 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.4.0",
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.5.0",
+    "axios": "^0.24.0",
+    "babel-plugin-styled-components": "^1.13.2",
+    "cursor-dot": "^1.0.5",
+    "emailjs-com": "^3.2.0",
+    "framer-motion": "^4.1.17",
+    "hamburger-react": "^2.4.1",
+    "immutable": "^4.0.0",
+    "markdown-it": "^12.3.2",
     "next": "11.1.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-animated-cursor": "^2.2.0",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0",
+    "react-image-gallery": "^1.2.7",
+    "react-intersection-observer": "^8.32.1",
+    "styled-components": "^5.3.1"
   },
   "devDependencies": {
     "eslint": "7.32.0",

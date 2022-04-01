@@ -1,0 +1,55 @@
+
+INSPIRATION: https://www.behance.net/gallery/122329087/Portfolio-Graphic-Design?tracking_source=search_projects_recommended%7Cportfolio%20cv
+
+Red Color (Crimson): #B90E0A 
+
+
+https://klasik.studio/work/
+https://flayks.com/
+https://florentbiffi.com/
+https://rekhchandsahu.com/
+https://www.vaayu.tech/
+
+ {isHomePageHover && (
+            <BackgroundImage
+              style={{
+                background: `url(${image1.src})`,
+              }}
+            />
+          )}
+
+
+
+             <Link passHref href={`/projects/${project.slug}`}>
+                  <ProjectsWrap
+                    key={project.id}
+                    as={motion.div}
+                    initial={{
+                      y: -150,
+                      opacity: 0,
+                    }}
+                    animate={projectControl}
+                  >
+                    <ProjectImageZoom>
+                      <ProjectImageWrap>
+                        <ProjectImage
+                          src={`http://localhost:1337${project.projectImage.url}`}
+                          alt={project.projectImage.alternativeText}
+                        />
+                      </ProjectImageWrap>
+                    </ProjectImageZoom>
+                    <ProjectTextWrap>
+                      <SectionHeadingThree>{project.title}</SectionHeadingThree>
+                      <TagsContainer>
+                        {project.project_tags.map((tag, index) => (
+                          <TagsWrap
+                            color={tag.fontColor}
+                            background={tag.backgroundColor}
+                          >
+                            {tag.projectTag}
+                          </TagsWrap>
+                        ))}
+                      </TagsContainer>
+                    </ProjectTextWrap>
+                  </ProjectsWrap>
+                </Link>
