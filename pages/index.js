@@ -9,7 +9,6 @@ import Projects from "../Components/Projects";
 import useFetch from "../Hooks/useFetch";
 import About from "../Components/About";
 import Testimonials from "../Components/Testimonials";
-import Footer from "../Components/footer";
 import Contact from "../Components/Contact";
 import VideoComp from "../Components/VideoComp";
 import LoadingScreen from "../Components/LoadingScreen";
