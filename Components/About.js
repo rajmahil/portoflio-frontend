@@ -3,15 +3,9 @@ import styled from "styled-components";
 import aboutMeImage from "../public/Images/aboutMeImage.png";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { useEffect } from "react";
 import { HeroButton } from "./Hero";
 import Link from "next/link";
-import {
-  SectionContainer,
-  SectionWrap,
-  MainButton,
-} from "../styles/GlobalStyles";
-import ProjectButton from "./Custom/ProjectButton";
+import { SectionContainer } from "../styles/GlobalStyles";
 
 const AboutColWrap = styled.div`
   width: 100%;

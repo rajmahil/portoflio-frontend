@@ -1,13 +1,10 @@
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import useFetch from "../Hooks/useFetch";
-import { BsArrowRight } from "react-icons/bs";
 import ProjectButton from "./Custom/ProjectButton";
 import styled from "styled-components";
-import ProjectBackground from "../public/Images/ProjectBackground.jpg";
 import { useInView } from "react-intersection-observer";
 import { motion, useAnimation } from "framer-motion";
-import Head from "next/head";
 import ProjectsComp from "./ProjectsComp";
 
 const TagsContainer = styled.div`

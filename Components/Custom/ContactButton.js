@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import Link from "next/link";
-import { MdArrowForward } from "react-icons/md";
 
 const ContactWrap = styled.div`
   width: auto;

@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import ContactBackground from "../public/Images/ContactBackground.png";
-import Link from "next/link";
 import emailMeBackground from "../public/Images/emailMeBackground.png";
 import EmailMe from "./Custom/EmailMe";
 import { motion, useAnimation } from "framer-motion";

@@ -1,6 +1,4 @@
-import { ServerStyleSheet } from "styled-components";
 import Document, { Html, Head, Main, NextScript } from "next/document";
-import SVGIcon from "../public/Images/SVGIcon.svg";
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {

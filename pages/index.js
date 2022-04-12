@@ -1,14 +1,9 @@
-import { useState } from "react";
-
 import Head from "next/head";
 import Link from "next/link";
-import TestimonialSection from "../Components/TestimonialSection";
 import Hero from "../Components/Hero";
-import LogoBanner from "../Components/LogoBanner";
 import Projects from "../Components/Projects";
 import useFetch from "../Hooks/useFetch";
 import About from "../Components/About";
-import Testimonials from "../Components/Testimonials";
 import Contact from "../Components/Contact";
 import VideoComp from "../Components/VideoComp";
 import LoadingScreen from "../Components/LoadingScreen";

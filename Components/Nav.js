@@ -1,11 +1,9 @@
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
-import { MainButton } from "../styles/GlobalStyles";
 import { Squash as Hamburger } from "hamburger-react";
 import { motion } from "framer-motion";
 import styled from "styled-components";
 import NavLinks from "./Custom/NavLinks";
-import ContactButton from "./Custom/ContactButton";
 import RajLogo from "../public/Images/RajLogo.png";
 import Image from "next/image";
 

@@ -3,7 +3,6 @@ import Image from "next/image";
 import Tape from "../public/Images/tape.png";
 import { useState } from "react";
 import { BiRightArrowAlt, BiLeftArrowAlt } from "react-icons/bi";
-import SectionBackground from "../public/Images/SectionBackground.png";
 import {
   SectionContainer,
   SectionParagraph,

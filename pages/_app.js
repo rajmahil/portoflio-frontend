@@ -1,6 +1,5 @@
 import Layout from "../Components/Layout";
 import "../styles/styles.css";
-import dynamic from "next/dynamic";
 // import AnimatedCursor from "react-animated-cursor";
 
 function MyApp({ Component, pageProps }) {

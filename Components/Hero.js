@@ -1,6 +1,4 @@
-import Image from "next/image";
 import styled from "styled-components";
-import { MainButton } from "../styles/GlobalStyles";
 import Link from "next/link";
 import { IoMdArrowDown } from "react-icons/io";
 import { useEffect, useState } from "react";

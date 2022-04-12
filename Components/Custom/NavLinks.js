@@ -1,7 +1,6 @@
 import Link from "next/link";
 import styled from "styled-components";
 import { useState, useEffect } from "react";
-import aboutImage from "../../public/Images/aboutImage.jpg";
 
 const NavLinkContainer = styled.div`
   width: auto;

@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { IoIosArrowRoundForward } from "react-icons/io";
 import { useState } from "react";
 import Link from "next/link";
 

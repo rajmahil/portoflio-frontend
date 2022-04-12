@@ -1,7 +1,5 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
-import loadingAnimation from "../public/Images/loadingAnimation.svg";
-import Image from "next/image";
 
 const SkBounce = keyframes`
   0%, 100% { 

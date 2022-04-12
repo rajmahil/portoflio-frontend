@@ -5,7 +5,6 @@ import Sidebar from "./Sidebar";
 import CallToAction from "./CallToAction";
 import AnimatedCursor from "react-animated-cursor";
 import Footer from "./Footer";
-import Contact from "./Contact.js";
 
 const Layout = ({ children }) => {
   const [isOpen, setIsOpen] = useState(false);

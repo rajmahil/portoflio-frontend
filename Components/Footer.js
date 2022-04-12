@@ -1,7 +1,4 @@
 import styled, { keyframes } from "styled-components";
-import { useState } from "react";
-import Link from "next/link";
-import { FiArrowUpRight } from "react-icons/fi";
 import circleText from "../public/Images/circleText.svg";
 import footerCircleImage from "../public/Images/footerCircleImage.png";
 import Image from "next/image";
