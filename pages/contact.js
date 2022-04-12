@@ -167,7 +167,7 @@ const SucessMessage = styled.div`
   margin-top: 10px;
 `;
 
-const contact = () => {
+const Contact = () => {
   const [sucessMessage, setSuccessMessage] = useState(false);
 
   const sendEmail = (e) => {
@@ -196,7 +196,7 @@ const contact = () => {
           Raj Mahil Portfolio | Creative Web Developer & designer from Canada
         </title>
         <meta name="description" content="meta description"></meta>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:title" content="OG title" />
         <meta property="og:url" content="url" />
@@ -260,7 +260,6 @@ const contact = () => {
                 id="standard-required"
                 label="First Name"
                 type="text"
-                required
                 name="firstName"
                 variant="standard"
                 sx={{
@@ -286,7 +285,6 @@ const contact = () => {
                 label="Last Name"
                 variant="standard"
                 type="text"
-                required
                 name="lastName"
                 sx={{
                   width: "250px",
@@ -312,7 +310,6 @@ const contact = () => {
                 label="Email"
                 variant="standard"
                 type="email"
-                required
                 name="email"
                 sx={{
                   width: "250px",
@@ -337,7 +334,6 @@ const contact = () => {
                 label="Phone"
                 variant="standard"
                 type="tel"
-                required
                 name="phone"
                 sx={{
                   width: "250px",
@@ -369,7 +365,6 @@ const contact = () => {
                 row
                 aria-labelledby="demo-row-radio-buttons-group-label"
                 name="row-radio-buttons-group"
-                required
                 name="services"
                 sx={{
                   color: "#000",
@@ -427,7 +422,6 @@ const contact = () => {
               id="standard-required"
               label="Your Message"
               variant="standard"
-              required
               name="message"
               sx={{
                 width: "100%",
@@ -452,7 +446,7 @@ const contact = () => {
             />
             {sucessMessage ? (
               <SucessMessage>
-                Your message has been sent. I'll be in touch soon! :)
+                Your message has been sent. I`&apos;`ll be in touch soon! :)
               </SucessMessage>
             ) : (
               <SubmitButton type="submit">Submit</SubmitButton>
@@ -464,4 +458,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;

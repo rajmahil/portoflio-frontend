@@ -181,7 +181,7 @@ const ProjectDetails = ({ project }) => {
       <Head>
         <title>{project.titleTag}</title>
         <meta name="description" content={project.metaDescription}></meta>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:title" content={project.titleTag} />
         <meta

@@ -81,7 +81,7 @@ const BlogPosts = ({ post }) => {
       <Head>
         <title>{post.titleTag}</title>
         <meta name="description" content={post.metaDescription}></meta>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:title" content={post.titleTag} />
         <meta property="og:url" content={`www.rajmahil.ca/${post.slug}`} />

@@ -160,7 +160,7 @@ const BlogParagraph = styled.p`
   font-style: italic;
 `;
 
-const blog = () => {
+const Blog = () => {
   const { loading, error, data } = useFetch("http://localhost:1337/blogs");
 
   if (loading) return <LoadingScreen />;
@@ -175,7 +175,7 @@ const blog = () => {
           Raj Mahil Portfolio | Creative Web Developer & designer from Canada
         </title>
         <meta name="description" content="meta description"></meta>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:title" content="OG title" />
         <meta property="og:url" content="url" />
@@ -198,8 +198,8 @@ const blog = () => {
               transition: { ease: "easeOut", duration: 0.8, delay: 0.2 },
             }}
           >
-            <PageSpan> This is the page</PageSpan> heading. I'm suppose to do
-            write something.
+            <PageSpan> This is the page</PageSpan> heading. I`&apos;`m suppose
+            to do write something.
           </PageHeading>
           <PageParagraph
             as={motion.p}
@@ -224,7 +224,7 @@ const blog = () => {
       <PageContentWrap>
         <BlogWrap>
           {data.map((posts, index) => (
-            <BlogContainer>
+            <BlogContainer key={index}>
               <BlogImageWrap
                 style={{
                   background: `url(http://localhost:1337${posts.blogMainImage[0].url})`,
@@ -241,4 +241,4 @@ const blog = () => {
   );
 };
 
-export default blog;
+export default Blog;
