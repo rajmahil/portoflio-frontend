@@ -221,9 +221,9 @@ const ProjectDetails = ({ project }) => {
       </ProjectHeader>
       <MainContentWrap>
         <ContentWrap style={{ paddingBottom: "0px" }}>
-          <LongDescription
+          {/* <LongDescription
             dangerouslySetInnerHTML={{ __html: md.render(htmlContent) }}
-          />
+          /> */}
         </ContentWrap>
         <ContentWrap>
           {project.projectImages.map((image, index) => (

@@ -105,9 +105,9 @@ const BlogPosts = ({ post }) => {
           </BlogHeaderOverlay>
         </BlogHeaderImage>
         <BlogPageWrap>
-          <BlogPageContent
+          {/* <BlogPageContent
             dangerouslySetInnerHTML={{ __html: md.render(htmlContent) }}
-          />
+          /> */}
           <OtherBlogs />
         </BlogPageWrap>
       </div>
