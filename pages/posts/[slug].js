@@ -63,7 +63,7 @@ const BlogPageContent = styled.div`
 
 const BlogPosts = ({ post }) => {
   const BlogHeaderImage = styled.div`
-    background: ${`url(https://portfolio-backend-raj-mahil.herokuapp.com${post.BlogBackgroundImage.url})`};
+    background: ${`url(https://portfolio-backend-raj-mahil.herokuapp.com${post?.BlogBackgroundImage.url})`};
     background-size: cover;
     background-position: center;
     height: 600px;
