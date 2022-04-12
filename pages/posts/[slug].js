@@ -72,7 +72,7 @@ const BlogPosts = ({ post }) => {
     html: true,
   });
 
-  const htmlContent = md.render(post?.blogContent);
+  const htmlContent = md.render((post?.blogContent).toString());
 
   console.log(post);
 
@@ -105,9 +105,7 @@ const BlogPosts = ({ post }) => {
           </BlogHeaderOverlay>
         </BlogHeaderImage>
         <BlogPageWrap>
-          {/* <BlogPageContent
-            dangerouslySetInnerHTML={{ __html: md.render(htmlContent) }}
-          /> */}
+          <BlogPageContent dangerouslySetInnerHTML={{ __html: htmlContent }} />
           <OtherBlogs />
         </BlogPageWrap>
       </div>

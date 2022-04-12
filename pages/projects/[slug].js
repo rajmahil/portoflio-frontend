@@ -164,7 +164,7 @@ const ProjectDetails = ({ project }) => {
   const md = new MarkdownIt({
     html: true,
   });
-  const htmlContent = md.render(project?.projectLongDescription);
+  const htmlContent = md.render((project?.projectLongDescription).toString());
 
   useEffect(() => {
     const getIndex = () =>
@@ -221,9 +221,7 @@ const ProjectDetails = ({ project }) => {
       </ProjectHeader>
       <MainContentWrap>
         <ContentWrap style={{ paddingBottom: "0px" }}>
-          {/* <LongDescription
-            dangerouslySetInnerHTML={{ __html: md.render(htmlContent) }}
-          /> */}
+          <LongDescription dangerouslySetInnerHTML={{ __html: htmlContent }} />
         </ContentWrap>
         <ContentWrap>
           {project.projectImages.map((image, index) => (
