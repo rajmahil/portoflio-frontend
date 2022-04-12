@@ -5,6 +5,6 @@ module.exports = {
 module.exports = {
   images: {
     domains: ["http://localhost:3000/", "localhost"],
-    domain: ["http://localhost:1337/"],
+    domain: ["https://portfolio-backend-raj-mahil.herokuapp.com/"],
   },
 };

@@ -63,7 +63,9 @@ const BlogDescription = styled.div`
 `;
 
 const OtherBlogs = () => {
-  const { loading, error, data } = useFetch("http://localhost:1337/blogs");
+  const { loading, error, data } = useFetch(
+    "https://portfolio-backend-raj-mahil.herokuapp.com/blogs"
+  );
 
   if (loading) return <LoadingScreen />;
   if (error) return <p>Error! :(</p>;
@@ -76,7 +78,7 @@ const OtherBlogs = () => {
           <BlogContentWrap key={blog.id}>
             <BlogImageWrap
               style={{
-                background: `url(http://localhost:1337${blog.blogMainImage[0].url})`,
+                background: `url(https://portfolio-backend-raj-mahil.herokuapp.com${blog.blogMainImage[0].url})`,
               }}
             />
             <BlogName>{blog.blogHeading}</BlogName>
