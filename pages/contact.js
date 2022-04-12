@@ -167,7 +167,7 @@ const SucessMessage = styled.div`
   margin-top: 10px;
 `;
 
-const Contact = () => {
+const ContactPage = () => {
   const [sucessMessage, setSuccessMessage] = useState(false);
 
   const sendEmail = (e) => {
@@ -458,4 +458,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactPage;
