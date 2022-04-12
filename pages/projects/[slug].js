@@ -169,7 +169,7 @@ const ProjectDetails = ({ project }) => {
   useEffect(() => {
     const getIndex = () =>
       data?.findIndex((element, index) => {
-        if (element.id === project.id) {
+        if (element.id === project?.id) {
           setIndex(index);
         }
       });
@@ -181,39 +181,39 @@ const ProjectDetails = ({ project }) => {
   return (
     <>
       <Head>
-        <title>{project.titleTag}</title>
-        <meta name="description" content={project.metaDescription}></meta>
+        <title>{project?.titleTag}</title>
+        <meta name="description" content={project?.metaDescription}></meta>
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og:title" content={project.titleTag} />
+        <meta property="og:title" content={project?.titleTag} />
         <meta
           property="og:url"
-          content={`http://localhost:3000/projects/${project.slug}`}
+          content={`http://localhost:3000/projects/${project?.slug}`}
         />
-        <meta property="og:description" content={project.metaDescription} />
+        <meta property="og:description" content={project?.metaDescription} />
         <meta
           property="og:image"
-          content={`https://portfolio-backend-raj-mahil.herokuapp.com${project.projectImage.url}`}
+          content={`https://portfolio-backend-raj-mahil.herokuapp.com${project?.projectImage.url}`}
         />
         <meta property="og:type" content="article" />
       </Head>
-      <ProjectHeader projectBackground={project.backgroundColor}>
+      <ProjectHeader projectBackground={project?.backgroundColor}>
         <HeadingWrap>
-          <ProjectHeading>{project.title}</ProjectHeading>
+          <ProjectHeading>{project?.title}</ProjectHeading>
         </HeadingWrap>
         <HeaderContentWrap>
           <HeaderDescriptionWrap>
             <HeaderLabel>Information</HeaderLabel>
             <HeaderDescription>
-              {project.projectShortDescription}
+              {project?.projectShortDescription}
             </HeaderDescription>
-            <ViewWebsite text="View Website" href={project.projectLink} />
+            <ViewWebsite text="View Website" href={project?.projectLink} />
           </HeaderDescriptionWrap>
           <HeaderDescriptionWrap>
             <HeaderLabel>Services</HeaderLabel>
             {project.project_tags.map((tag, index) => (
               <>
-                <ProjectTags>{tag.projectTag}</ProjectTags>
+                <ProjectTags>{tag?.projectTag}</ProjectTags>
               </>
             ))}
           </HeaderDescriptionWrap>
@@ -221,7 +221,9 @@ const ProjectDetails = ({ project }) => {
       </ProjectHeader>
       <MainContentWrap>
         <ContentWrap style={{ paddingBottom: "0px" }}>
-          <LongDescription dangerouslySetInnerHTML={{ __html: htmlContent }} />
+          <LongDescription
+            dangerouslySetInnerHTML={{ __html: md.render(htmlContent) }}
+          />
         </ContentWrap>
         <ContentWrap>
           {project.projectImages.map((image, index) => (
