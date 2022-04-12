@@ -68,13 +68,13 @@ const BlogPosts = ({ post }) => {
     background-position: center;
     height: 600px;
   `;
-  const md = new MarkdownIt({
-    html: true,
-  });
+  // const md = new MarkdownIt({
+  //   html: true,
+  // });
 
-  const htmlContent = md.render((post?.blogContent).toString());
+  // const htmlContent = md.render((post?.blogContent).toString());
 
-  console.log(post);
+  // console.log(post);
 
   return (
     <>
@@ -105,7 +105,8 @@ const BlogPosts = ({ post }) => {
           </BlogHeaderOverlay>
         </BlogHeaderImage>
         <BlogPageWrap>
-          <BlogPageContent dangerouslySetInnerHTML={{ __html: htmlContent }} />
+          {/* <BlogPageContent dangerouslySetInnerHTML={{ __html: htmlContent }} /> */}
+          <BlogPageContent>{post?.blogContent}</BlogPageContent>
           <OtherBlogs />
         </BlogPageWrap>
       </div>
