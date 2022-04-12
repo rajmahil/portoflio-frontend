@@ -365,7 +365,7 @@ const ContactPage = () => {
                 row
                 aria-labelledby="demo-row-radio-buttons-group-label"
                 name="row-radio-buttons-group"
-                name="services"
+                required
                 sx={{
                   color: "#000",
                   "&.MuiSvgIcon-root": {
