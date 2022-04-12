@@ -72,35 +72,35 @@ const BlogPosts = ({ post }) => {
     html: true,
   });
 
-  const htmlContent = md.render(post.blogContent);
+  const htmlContent = md.render(post?.blogContent);
 
   console.log(post);
 
   return (
     <>
       <Head>
-        <title>{post.titleTag}</title>
-        <meta name="description" content={post.metaDescription}></meta>
+        <title>{post?.titleTag}</title>
+        <meta name="description" content={post?.metaDescription}></meta>
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og:title" content={post.titleTag} />
-        <meta property="og:url" content={`www.rajmahil.ca/${post.slug}`} />
-        <meta property="og:description" content={post.metaDescription} />
+        <meta property="og:title" content={post?.titleTag} />
+        <meta property="og:url" content={`www.rajmahil.ca/${post?.slug}`} />
+        <meta property="og:description" content={post?.metaDescription} />
         <meta
           property="og:image"
-          content={`https://portfolio-backend-raj-mahil.herokuapp.com${post.blogMainImage[0].url}`}
+          content={`https://portfolio-backend-raj-mahil.herokuapp.com${post?.blogMainImage[0].url}`}
         />
         <meta property="og:type" content="article" />
       </Head>
       <div id="top" style={{ cursor: "default", backgound: "#f9f9f9" }}>
         <BlogHeaderImage>
           <BlogHeaderOverlay>
-            <BlogMainHeading>{post.blogHeading}</BlogMainHeading>
-            <BlogPublishDate>{`Published on: ${post.blogPublishDate}`}</BlogPublishDate>
+            <BlogMainHeading>{post?.blogHeading}</BlogMainHeading>
+            <BlogPublishDate>{`Published on: ${post?.blogPublishDate}`}</BlogPublishDate>
             <BlogAuthor
-              imageUrl={post.author?.authorsImage.url}
-              authorName={post.author?.fullName}
-              authorsJobTitle={post.author?.authorsJobTitle}
+              imageUrl={post?.author?.authorsImage.url}
+              authorName={post?.author?.fullName}
+              authorsJobTitle={post?.author?.authorsJobTitle}
             />
           </BlogHeaderOverlay>
         </BlogHeaderImage>
