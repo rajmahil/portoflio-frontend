@@ -158,7 +158,7 @@ const Projects = () => {
   const [isHover, setIsHover] = useState(false);
   //CMS Blog Fetch
   const { loading, error, data } = useFetch(
-    "http://localhost:1337/projects?featuredProject=true"
+    "https://portfolio-backend-raj-mahil.herokuapp.com/projects?featuredProject=true"
   );
 
   if (loading) return <p>Loading...</p>;
@@ -194,7 +194,7 @@ const Projects = () => {
               description={project.projectShortDescription}
               slug={project.slug}
               index={index}
-              url={`http://localhost:1337${project.projectImage.url}`}
+              url={`https://portfolio-backend-raj-mahil.herokuapp.com${project.projectImage.url}`}
               projectTags={project.project_tags}
             />
           ))}

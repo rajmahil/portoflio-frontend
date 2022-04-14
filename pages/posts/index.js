@@ -161,7 +161,9 @@ const BlogParagraph = styled.p`
 `;
 
 const Blog = () => {
-  const { loading, error, data } = useFetch("http://localhost:1337/blogs");
+  const { loading, error, data } = useFetch(
+    "https://portfolio-backend-raj-mahil.herokuapp.com/blogs"
+  );
 
   if (loading) return <LoadingScreen />;
   if (error) return <p>Error! :(</p>;
@@ -227,7 +229,7 @@ const Blog = () => {
             <BlogContainer key={index}>
               <BlogImageWrap
                 style={{
-                  background: `url(http://localhost:1337${posts.blogMainImage[0].url})`,
+                  background: `url(https://portfolio-backend-raj-mahil.herokuapp.com${posts.blogMainImage[0].url})`,
                 }}
               />
               <BlogHeading>{posts.blogHeading}</BlogHeading>

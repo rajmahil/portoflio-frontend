@@ -175,7 +175,9 @@ const ProjectImage = styled.img`
 `;
 
 const Projects = () => {
-  const { loading, error, data } = useFetch("http://localhost:1337/projects");
+  const { loading, error, data } = useFetch(
+    "https://portfolio-backend-raj-mahil.herokuapp.com/projects"
+  );
 
   if (loading) return <LoadingScreen />;
   if (error) return <p>Error! :(</p>;
@@ -241,13 +243,13 @@ const Projects = () => {
               <ProjectsWrap>
                 <ImageWrap
                 // style={{
-                //   background: `url(http://localhost:1337${project.projectImage.url})`,
+                //   background: `url(https://portfolio-backend-raj-mahil.herokuapp.com${project.projectImage.url})`,
                 //   backgroundSize: "cover",
                 //   backgroundPosition: "center",
                 // }}
                 >
                   <ProjectImage
-                    src={`http://localhost:1337${project.projectImage.url}`}
+                    src={`https://portfolio-backend-raj-mahil.herokuapp.com${project.projectImage.url}`}
                   />
                 </ImageWrap>
                 <ProjectsCtaWrap>
