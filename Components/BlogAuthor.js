@@ -60,9 +60,7 @@ const BlogAuthor = ({ imageUrl, authorName, authorsJobTitle }) => {
   return (
     <AuthorWrap>
       <ImageWrap>
-        <AuthorImage
-          src={`https://portfolio-backend-raj-mahil.herokuapp.com${imageUrl}`}
-        />
+        <AuthorImage src={`http://localhost:1337${imageUrl}`} />
       </ImageWrap>
       <TextWrap>
         <AuthorName>{authorName}</AuthorName>

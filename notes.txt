@@ -33,7 +33,7 @@ https://www.vaayu.tech/
                     <ProjectImageZoom>
                       <ProjectImageWrap>
                         <ProjectImage
-                          src={`https://portfolio-backend-raj-mahil.herokuapp.com${project.projectImage.url}`}
+                          src={`http://localhost:1337${project.projectImage.url}`}
                           alt={project.projectImage.alternativeText}
                         />
                       </ProjectImageWrap>

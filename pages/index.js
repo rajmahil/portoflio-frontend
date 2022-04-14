@@ -9,9 +9,7 @@ import VideoComp from "../Components/VideoComp";
 import LoadingScreen from "../Components/LoadingScreen";
 
 const Home = () => {
-  const { loading, error, data } = useFetch(
-    "https://portfolio-backend-raj-mahil.herokuapp.com/projects"
-  );
+  const { loading, error, data } = useFetch("http://localhost:1337/projects");
 
   if (loading) return <LoadingScreen />;
   if (error) return <p>Error! :(</p>;
