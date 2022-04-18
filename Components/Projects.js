@@ -158,7 +158,7 @@ const Projects = () => {
   const [isHover, setIsHover] = useState(false);
   //CMS Blog Fetch
   const { loading, error, data } = useFetch(
-    "https://portfolio-backend-raj-mahil.herokuapp.com/projects?featuredProject=true"
+    "https://floating-hollows-19339.herokuapp.com/projects?featuredProject=true"
   );
 
   if (loading) return <p>Loading...</p>;
@@ -194,7 +194,7 @@ const Projects = () => {
               description={project.projectShortDescription}
               slug={project.slug}
               index={index}
-              url={`https://portfolio-backend-raj-mahil.herokuapp.com${project.projectImage.url}`}
+              url={`https://floating-hollows-19339.herokuapp.com${project.projectImage.url}`}
               projectTags={project.project_tags}
             />
           ))}

@@ -27,7 +27,7 @@ class MyDocument extends Document {
           <link
             rel="icon"
             type="image/svg"
-            href="https://portfolio-backend-raj-mahil.herokuapp.com/uploads/SVG_Icon_ffb054b289.svg"
+            href="https://floating-hollows-19339.herokuapp.com/uploads/SVG_Icon_ffb054b289.svg"
           ></link>
         </Head>
         <body>

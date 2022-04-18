@@ -64,7 +64,7 @@ const BlogDescription = styled.div`
 
 const OtherBlogs = () => {
   const { loading, error, data } = useFetch(
-    "https://portfolio-backend-raj-mahil.herokuapp.com/blogs"
+    "https://floating-hollows-19339.herokuapp.com/blogs"
   );
 
   if (loading) return <LoadingScreen />;
@@ -78,7 +78,7 @@ const OtherBlogs = () => {
           <BlogContentWrap key={blog.id}>
             <BlogImageWrap
               style={{
-                background: `url(https://portfolio-backend-raj-mahil.herokuapp.com${blog.blogMainImage[0].url})`,
+                background: `url(https://floating-hollows-19339.herokuapp.com${blog.blogMainImage[0].url})`,
               }}
             />
             <BlogName>{blog.blogHeading}</BlogName>

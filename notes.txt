@@ -33,7 +33,7 @@ https://www.vaayu.tech/
                     <ProjectImageZoom>
                       <ProjectImageWrap>
                         <ProjectImage
-                          src={`https://portfolio-backend-raj-mahil.herokuapp.com${project.projectImage.url}`}
+                          src={`https://floating-hollows-19339.herokuapp.com${project.projectImage.url}`}
                           alt={project.projectImage.alternativeText}
                         />
                       </ProjectImageWrap>

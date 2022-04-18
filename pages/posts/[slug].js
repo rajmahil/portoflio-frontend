@@ -63,7 +63,7 @@ const BlogPageContent = styled.div`
 
 const BlogPosts = ({ post }) => {
   const BlogHeaderImage = styled.div`
-    background: ${`url(https://portfolio-backend-raj-mahil.herokuapp.com${post?.BlogBackgroundImage.url})`};
+    background: ${`url(https://floating-hollows-19339.herokuapp.com${post?.BlogBackgroundImage.url})`};
     background-size: cover;
     background-position: center;
     height: 600px;
@@ -88,7 +88,7 @@ const BlogPosts = ({ post }) => {
         <meta property="og:description" content={post?.metaDescription} />
         <meta
           property="og:image"
-          content={`https://portfolio-backend-raj-mahil.herokuapp.com${post?.blogMainImage[0].url}`}
+          content={`https://floating-hollows-19339.herokuapp.com${post?.blogMainImage[0].url}`}
         />
         <meta property="og:type" content="article" />
       </Head>
@@ -117,11 +117,11 @@ const BlogPosts = ({ post }) => {
 //tells NEXT how many pages there are
 export async function getStaticPaths() {
   const res = await fetch(
-    "https://portfolio-backend-raj-mahil.herokuapp.com/blogs/"
+    "https://floating-hollows-19339.herokuapp.com/blogs/"
   );
   const posts = await res.json();
 
-  const paths = posts.map((post) => ({
+  const paths = posts?.map((post) => ({
     params: { slug: post.slug },
   }));
 
@@ -136,7 +136,7 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const { slug } = params;
   const res = await fetch(
-    `https://portfolio-backend-raj-mahil.herokuapp.com/blogs?slug=${slug}`
+    `https://floating-hollows-19339.herokuapp.com/blogs?slug=${slug}`
   );
   const data = await res.json();
   const post = data[0];

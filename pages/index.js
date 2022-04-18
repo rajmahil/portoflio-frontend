@@ -10,7 +10,7 @@ import LoadingScreen from "../Components/LoadingScreen";
 
 const Home = () => {
   const { loading, error, data } = useFetch(
-    "https://portfolio-backend-raj-mahil.herokuapp.com/projects"
+    "https://floating-hollows-19339.herokuapp.com/projects"
   );
 
   if (loading) return <LoadingScreen />;

@@ -156,7 +156,7 @@ const GridImages = styled.img`
 
 const ProjectDetails = ({ project }) => {
   const { loading, error, data } = useFetch(
-    "https://portfolio-backend-raj-mahil.herokuapp.com/projects"
+    "https://floating-hollows-19339.herokuapp.com/projects"
   );
 
   const [index, setIndex] = useState();
@@ -193,7 +193,7 @@ const ProjectDetails = ({ project }) => {
         <meta property="og:description" content={project?.metaDescription} />
         <meta
           property="og:image"
-          content={`https://portfolio-backend-raj-mahil.herokuapp.com${project?.projectImage.url}`}
+          content={`https://floating-hollows-19339.herokuapp.com${project?.projectImage.url}`}
         />
         <meta property="og:type" content="article" />
       </Head>
@@ -229,7 +229,7 @@ const ProjectDetails = ({ project }) => {
             <>
               <PhotoGrid>
                 <GridImages
-                  src={`https://portfolio-backend-raj-mahil.herokuapp.com${image.url}`}
+                  src={`https://floating-hollows-19339.herokuapp.com${image.url}`}
                 />
               </PhotoGrid>
             </>
@@ -262,7 +262,7 @@ const ProjectDetails = ({ project }) => {
 
 export async function getStaticPaths() {
   const res = await fetch(
-    "https://portfolio-backend-raj-mahil.herokuapp.com/projects/"
+    "https://floating-hollows-19339.herokuapp.com/projects/"
   );
   const projects = await res.json();
 
@@ -281,7 +281,7 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const { slug } = params;
   const res = await fetch(
-    `https://portfolio-backend-raj-mahil.herokuapp.com/projects?slug=${slug}`
+    `https://floating-hollows-19339.herokuapp.com/projects?slug=${slug}`
   );
   const data = await res.json();
   const project = data[0];
