@@ -172,6 +172,7 @@ const ProjectsComp = ({
   index,
   url,
   projectTags,
+  alt,
 }) => {
   const [isHover, setIsHover] = useState(false);
 
@@ -202,7 +203,7 @@ const ProjectsComp = ({
             animate={imgAnimation}
             onMouseMove={(e) => handleMouseMove(e)}
             src={url}
-            alt="Woman in a red dress"
+            alt={alt}
           />
         </ImageOverlay>
         <ColLeft>
@@ -213,7 +214,7 @@ const ProjectsComp = ({
         </ColLeft>
         <ColRight>
           <ProjectTitle isHover={isHover}>{title}</ProjectTitle>
-          <ProjectDescription>{description}</ProjectDescription>
+          <ProjectDescription>{description}</ProjectDescription>``
           <ServicesHeading>Services</ServicesHeading>
           <TagsContainer>
             {projectTags.map((tag, idx) => (

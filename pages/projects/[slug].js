@@ -191,10 +191,7 @@ const ProjectDetails = ({ project }) => {
           content={`http://localhost:3000/projects/${project?.slug}`}
         />
         <meta property="og:description" content={project?.metaDescription} />
-        <meta
-          property="og:image"
-          content={`https://floating-hollows-19339.herokuapp.com${project?.projectImage.url}`}
-        />
+        <meta property="og:image" content={project?.projectImage.url} />
         <meta property="og:type" content="article" />
       </Head>
       <ProjectHeader projectBackground={project?.backgroundColor}>
@@ -228,9 +225,7 @@ const ProjectDetails = ({ project }) => {
           {project.projectImages.map((image, index) => (
             <>
               <PhotoGrid>
-                <GridImages
-                  src={`https://floating-hollows-19339.herokuapp.com${image.url}`}
-                />
+                <GridImages src={image.url} alt={image.alternativeText} />
               </PhotoGrid>
             </>
           ))}

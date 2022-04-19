@@ -194,8 +194,9 @@ const Projects = () => {
               description={project.projectShortDescription}
               slug={project.slug}
               index={index}
-              url={`https://floating-hollows-19339.herokuapp.com${project.projectImage.url}`}
+              url={project.projectImage.url}
               projectTags={project.project_tags}
+              alt={project.projectImage.alternativeText}
             />
           ))}
           <BtnWrap>

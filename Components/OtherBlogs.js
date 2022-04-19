@@ -78,7 +78,7 @@ const OtherBlogs = () => {
           <BlogContentWrap key={blog.id}>
             <BlogImageWrap
               style={{
-                background: `url(https://floating-hollows-19339.herokuapp.com${blog.blogMainImage[0].url})`,
+                background: `url(${blog.blogMainImage[0].url})`,
               }}
             />
             <BlogName>{blog.blogHeading}</BlogName>

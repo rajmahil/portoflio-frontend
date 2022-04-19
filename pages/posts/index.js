@@ -229,7 +229,7 @@ const Blog = () => {
             <BlogContainer key={index}>
               <BlogImageWrap
                 style={{
-                  background: `url(https://floating-hollows-19339.herokuapp.com${posts.blogMainImage[0].url})`,
+                  background: `url(${posts.blogMainImage[0].url})`,
                 }}
               />
               <BlogHeading>{posts.blogHeading}</BlogHeading>

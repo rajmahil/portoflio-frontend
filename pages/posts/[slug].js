@@ -63,7 +63,7 @@ const BlogPageContent = styled.div`
 
 const BlogPosts = ({ post }) => {
   const BlogHeaderImage = styled.div`
-    background: ${`url(https://floating-hollows-19339.herokuapp.com${post?.BlogBackgroundImage.url})`};
+    background: ${`url(${post?.BlogBackgroundImage.url})`};
     background-size: cover;
     background-position: center;
     height: 600px;
@@ -86,10 +86,7 @@ const BlogPosts = ({ post }) => {
         <meta property="og:title" content={post?.titleTag} />
         <meta property="og:url" content={`www.rajmahil.ca/${post?.slug}`} />
         <meta property="og:description" content={post?.metaDescription} />
-        <meta
-          property="og:image"
-          content={`https://floating-hollows-19339.herokuapp.com${post?.blogMainImage[0].url}`}
-        />
+        <meta property="og:image" content={post?.blogMainImage[0].url} />
         <meta property="og:type" content="article" />
       </Head>
       <div id="top" style={{ cursor: "default", backgound: "#f9f9f9" }}>
@@ -99,6 +96,7 @@ const BlogPosts = ({ post }) => {
             <BlogPublishDate>{`Published on: ${post?.blogPublishDate}`}</BlogPublishDate>
             <BlogAuthor
               imageUrl={post?.author?.authorsImage.url}
+              altText={post?.author?.authorsImage.alternativeText}
               authorName={post?.author?.fullName}
               authorsJobTitle={post?.author?.authorsJobTitle}
             />

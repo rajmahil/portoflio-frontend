@@ -249,7 +249,8 @@ const Projects = () => {
                 // }}
                 >
                   <ProjectImage
-                    src={`https://floating-hollows-19339.herokuapp.com${project.projectImage.url}`}
+                    src={project.projectImage.url}
+                    alt={project.projectImage.alternativeText}
                   />
                 </ImageWrap>
                 <ProjectsCtaWrap>

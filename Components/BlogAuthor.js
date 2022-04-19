@@ -56,13 +56,11 @@ const AuthorJobTitle = styled.div`
   }
 `;
 
-const BlogAuthor = ({ imageUrl, authorName, authorsJobTitle }) => {
+const BlogAuthor = ({ imageUrl, authorName, authorsJobTitle, altText }) => {
   return (
     <AuthorWrap>
       <ImageWrap>
-        <AuthorImage
-          src={`https://floating-hollows-19339.herokuapp.com${imageUrl}`}
-        />
+        <AuthorImage src={imageUrl} alt={altText} />
       </ImageWrap>
       <TextWrap>
         <AuthorName>{authorName}</AuthorName>

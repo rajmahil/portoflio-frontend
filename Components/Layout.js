@@ -15,9 +15,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Head>
-        <link rel="stylesheet" href="https://use.typekit.net/vha4vpu.css" />
-      </Head>
+      <Head></Head>
       <Nav toggle={toggle} isOpen={isOpen} />
       <Sidebar toggle={toggle} isOpen={isOpen} />
       <div>
