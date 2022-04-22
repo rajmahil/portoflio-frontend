@@ -31,7 +31,7 @@ class MyDocument extends Document {
           ></link>
           <link rel="stylesheet" href="https://use.typekit.net/vha4vpu.css" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
             href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap"
             rel="stylesheet"
