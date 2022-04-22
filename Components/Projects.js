@@ -26,7 +26,7 @@ const TagsWrap = styled.div`
   }
 `;
 const SectionHeading = styled.h2`
-  font-family: degular-display, sans-serif !important;
+  font-family: "Roboto", sans-serif;
   font-weight: 800;
   font-style: italic;
   text-transform: uppercase;
@@ -99,7 +99,7 @@ const ProjectImageZoom = styled.div`
 const SectionHeadingThree = styled.h3`
   font-size: 3.2em;
   margin: 0;
-  font-family: degular-display, sans-serif !important;
+  font-family: "Roboto", sans-serif;
   font-weight: 800;
   text-transform: uppercase;
 

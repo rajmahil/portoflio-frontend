@@ -33,7 +33,7 @@ const ContactWrap = styled.div`
   align-items: center;
 `;
 const SectionHeading = styled.h2`
-  font-family: degular-display, sans-serif !important;
+  font-family: "Roboto", sans-serif;
   font-weight: 800;
   font-style: italic;
   text-transform: uppercase;

@@ -16,7 +16,7 @@ const ButtonWrap = styled.div`
   }
 `;
 const ButtonText = styled.text`
-  font-family: degular-display, sans-serif !important;
+  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-size: 2.6em;
   font-weight: 600;

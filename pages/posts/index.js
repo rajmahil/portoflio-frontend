@@ -36,7 +36,7 @@ const PageContainer = styled.div`
   }
 `;
 const PageHeading = styled.h1`
-  font-family: degular-display, sans-serif !important;
+  font-family: "Roboto", sans-serif;
   color: #fff;
   font-size: 6em;
   text-align: center;
@@ -144,7 +144,7 @@ const BlogImageWrap = styled.div`
 
 const BlogHeading = styled.h2`
   font-size: 3em;
-  font-family: degular-display, sans-serif !important;
+  font-family: "Roboto", sans-serif;
   margin-bottom: 0px;
   margin-top: 20px;
 

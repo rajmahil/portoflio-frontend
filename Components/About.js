@@ -68,7 +68,7 @@ const AboutTextWrap = styled.div`
   }
 `;
 const AboutHeading = styled.h2`
-  font-family: degular-display, sans-serif !important;
+  font-family: "Roboto", sans-serif;
   font-size: 4em;
   margin: 0px;
 

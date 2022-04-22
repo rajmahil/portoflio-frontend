@@ -6,7 +6,7 @@ import ReadBlog from "./Custom/ReadBlog.js";
 
 const OtherBlogsHeading = styled.h2`
   margin-top: 50px;
-  font-family: degular-display, sans-serif !important;
+  font-family: "Roboto", sans-serif;
   font-size: 4em;
   text-align: center;
 `;

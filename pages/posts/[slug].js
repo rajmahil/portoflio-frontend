@@ -15,7 +15,7 @@ const BlogHeaderOverlay = styled.div`
   justify-content: center;
 `;
 const BlogMainHeading = styled.h1`
-  font-family: degular-display, sans-serif !important;
+  font-family: "Roboto", sans-serif;
   color: #fff;
   font-size: 4.2em;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
