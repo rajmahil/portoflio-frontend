@@ -70,7 +70,7 @@ const Text = styled.h2`
   width: auto;
   text-align: center;
   color: #fff;
-  font-family: degular-display, sans-serif;
+  font-family: degular-display, sans-serif !important;
   text-transform: uppercase;
   margin: 0px;
   margin-bottom: 5px;
