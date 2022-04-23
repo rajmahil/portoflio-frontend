@@ -40,6 +40,7 @@ const HeroText = styled.h1`
   justify-content: center;
   font-family: degular-display, sans-serif !important;
   font-style: italic;
+  font-weight: 800;
   font-size: 6em;
   flex-wrap: wrap;
   margin-left: auto;

@@ -23,6 +23,8 @@ const LinksWrap = styled.div`
 `;
 const LinkText = styled.text`
   font-size: 5em;
+  font-family: degular-display, sans-serif !important;
+  font-style: italic;
 
   @media screen and (max-width: 1050px) {
     font-size: 4em;
