@@ -19,7 +19,7 @@ const ButtonText = styled.text`
   font-family: degular-display, sans-serif !important;
   font-style: italic;
   text-transform: uppercase;
-  font-size: 2.6em;
+  font-size: 3em;
   font-weight: 800;
   margin-bottom: 10px;
   text-align: center;
