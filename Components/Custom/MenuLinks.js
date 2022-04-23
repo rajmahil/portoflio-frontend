@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const LinksWrap = styled.div`
   width: fit-content;
-  font-family: "Roboto", sans-serif;
+  font-family: degular-display, sans-serif !important;
   cursor: pointer;
   transition: all 0.3s ease-out;
 

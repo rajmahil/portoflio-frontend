@@ -30,12 +30,6 @@ class MyDocument extends Document {
             href="https://floating-hollows-19339.herokuapp.com/uploads/SVG_Icon_ffb054b289.svg"
           ></link>
           <link rel="stylesheet" href="https://use.typekit.net/vha4vpu.css" />
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap"
-            rel="stylesheet"
-          />
         </Head>
         <body>
           <Main />

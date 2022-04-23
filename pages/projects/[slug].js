@@ -12,7 +12,7 @@ const ProjectHeading = styled.h1`
   font-size: 6em;
   color: #fff;
   margin: 0px;
-  font-family: "Roboto", sans-serif;
+  font-family: degular-display, sans-serif !important;
   margin-right: auto;
   line-height: 100px;
 

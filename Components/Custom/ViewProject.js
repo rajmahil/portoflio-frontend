@@ -12,7 +12,7 @@ const ButtonWrap = styled.div`
 `;
 const ButtonText = styled.text`
   font-size: 2.5em;
-  font-family: "Roboto", sans-serif;
+  font-family: degular-display, sans-serif !important; ;
 `;
 const IconWrap = styled.div`
   font-size: 2.2em;

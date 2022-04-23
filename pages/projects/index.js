@@ -33,7 +33,7 @@ const PageWrap = styled.div`
   justify-content: center;
 `;
 const PageHeading = styled.h1`
-  font-family: "Roboto", sans-serif;
+  font-family: degular-display, sans-serif !important;
   color: #fff;
   font-size: 6em;
   text-align: center;
@@ -130,7 +130,7 @@ const ProjectContainer = styled.div`
 
 const ProjectHeading = styled.h2`
   font-size: 3em;
-  font-family: "Roboto", sans-serif;
+  font-family: degular-display, sans-serif !important;
   margin-bottom: 0px;
   margin-top: 0px;
 

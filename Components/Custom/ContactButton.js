@@ -23,7 +23,7 @@ const IconWrap = styled.div`
   justify-content: center;
 `;
 const ContactText = styled.text`
-  font-family: "Roboto", sans-serif;
+  font-family: degular-display, sans-serif !important;
   color: #000;
   text-transform: uppercase;
   font-size: 1em;

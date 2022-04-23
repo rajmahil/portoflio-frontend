@@ -42,7 +42,7 @@ const ColRight = styled.div`
 
 const ProjectTitle = styled.h3`
   font-size: 5em;
-  font-family: "Roboto", sans-serif;
+  font-family: degular-display, sans-serif !important;
   margin-top: 0px;
   margin-bottom: 10px;
   line-height: 90px;
@@ -117,7 +117,7 @@ const IndexWrap = styled.div`
 
 const IndexText = styled.div`
   font-size: 3em;
-  font-family: "Roboto", sans-serif;
+  font-family: degular-display, sans-serif !important;
   margin-bottom: 5px;
 
   @media screen and (max-width: 500px) {

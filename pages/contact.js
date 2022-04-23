@@ -53,7 +53,7 @@ const ContactInfoWrap = styled.div`
   }
 `;
 const ContactHeading = styled.h1`
-  font-family: "Roboto", sans-serif;
+  font-family: degular-display, sans-serif !important;
   color: #fff;
   font-size: 3em;
   font-weight: 600;
@@ -141,7 +141,7 @@ const HorizontalWrap = styled.div`
 const SubmitButton = styled.button`
   width: auto;
   padding: 8px 28px;
-  font-family: "Roboto", sans-serif;
+  font-family: degular-display, sans-serif !important;
   font-size: 1.5em;
   border: none;
   background: #000;

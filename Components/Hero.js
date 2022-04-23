@@ -38,7 +38,8 @@ const HeroText = styled.h1`
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-family: "Roboto", sans-serif;
+  font-family: degular-display, sans-serif !important;
+  font-style: italic;
   font-size: 6em;
   flex-wrap: wrap;
   margin-left: auto;
