@@ -4,7 +4,6 @@ import styled from "styled-components";
 
 const LinksWrap = styled.div`
   width: fit-content;
-  font-family: degular-display, sans-serif !important;
   cursor: pointer;
   transition: all 0.3s ease-out;
 
@@ -25,6 +24,7 @@ const LinkText = styled.text`
   font-size: 5em;
   font-family: degular-display, sans-serif !important;
   font-style: italic;
+  font-weight: 800;
 
   @media screen and (max-width: 1050px) {
     font-size: 4em;
