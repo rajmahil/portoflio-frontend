@@ -17,9 +17,10 @@ const ButtonWrap = styled.div`
 `;
 const ButtonText = styled.text`
   font-family: degular-display, sans-serif !important;
+  font-style: italic;
   text-transform: uppercase;
   font-size: 2.6em;
-  font-weight: 600;
+  font-weight: 800;
   margin-bottom: 10px;
   text-align: center;
   text-decoration: none !important;

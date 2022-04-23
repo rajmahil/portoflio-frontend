@@ -69,6 +69,8 @@ const AboutTextWrap = styled.div`
 `;
 const AboutHeading = styled.h2`
   font-family: degular-display, sans-serif !important;
+  font-style: italic;
+  font-weight: 800;
   font-size: 4em;
   margin: 0px;
 
@@ -126,11 +128,7 @@ const About = () => {
   }
 
   return (
-    <SectionContainer
-      id="AboutSection"
-      style={{ background: "#f9f9f9" }}
-      id="aboutMe"
-    >
+    <SectionContainer id="AboutSection" style={{ background: "#f9f9f9" }}>
       <AboutColWrap ref={ref}>
         <AboutCol>
           <AboutTextWrap>

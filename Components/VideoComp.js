@@ -71,7 +71,8 @@ const Text = styled.h2`
   text-align: center;
   color: #fff;
   font-family: degular-display, sans-serif !important;
-  text-transform: uppercase;
+  font-style: italic;
+  font-weight: 800;
   margin: 0px;
   margin-bottom: 5px;
   line-height: 0px;

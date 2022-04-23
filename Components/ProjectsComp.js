@@ -43,6 +43,7 @@ const ColRight = styled.div`
 const ProjectTitle = styled.h3`
   font-size: 5em;
   font-family: degular-display, sans-serif !important;
+  font-style: italic;
   margin-top: 0px;
   margin-bottom: 10px;
   line-height: 90px;
