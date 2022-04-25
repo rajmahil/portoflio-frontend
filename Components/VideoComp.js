@@ -26,6 +26,7 @@ const VideoContainer = styled.div`
   }
 
   @media screen and (max-width: 550px) {
+    display: none;
     background: ${`url(${quoteMobileBackground.src})`};
     background-size: cover;
     height: 400px;

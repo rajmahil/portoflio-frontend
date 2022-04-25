@@ -29,6 +29,7 @@ const ButtonText = styled.div`
   position: absolute;
   bottom: 0;
   margin-bottom: -30px;
+  text-align: center !important;
 `;
 
 const EmailMe = ({ text, href }) => {
