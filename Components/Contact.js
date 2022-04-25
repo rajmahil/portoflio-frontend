@@ -73,6 +73,8 @@ const EmailWrap = styled.div`
   align-items: center;
   justify-content: center;
   text-align: center;
+  font-style: italic;
+  font-family: ivypresto-display, serif;
 `;
 
 const Contact = () => {

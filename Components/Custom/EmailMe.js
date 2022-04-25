@@ -18,6 +18,8 @@ const ButtonWrap = styled.div`
   transition: all 0.2s ease-out;
   transform: ${({ isHover }) => (isHover ? "rotate(-20deg)" : "none")};
   position: relative;
+  font-style: italic;
+  font-family: ivypresto-display, serif;
 `;
 
 const ButtonText = styled.div`
@@ -30,6 +32,7 @@ const ButtonText = styled.div`
   bottom: 0;
   margin-bottom: -30px;
   text-align: center !important;
+  font-style: italic;
 `;
 
 const EmailMe = ({ text, href }) => {
