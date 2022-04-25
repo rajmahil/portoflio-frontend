@@ -106,6 +106,10 @@ const IconWrap = styled.div`
   position: absolute;
   font-size: 6em;
   bottom: 0;
+
+  @media screen and (max-width: 550px) {
+    font-size: 3em;
+  }
 `;
 export const HeroButton = styled.div`
   font-family: lato, sans-serif;
