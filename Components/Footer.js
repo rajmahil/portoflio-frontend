@@ -33,6 +33,7 @@ const FooterContainer = styled.div`
   justify-content: space-between;
   border-radius: 1000vw 1000vw 0 0;
   height: 100%;
+  overflow: hidden;
 `;
 
 const CopyrightText = styled.p`
@@ -107,9 +108,8 @@ const CircleImageWrap = styled.div`
   height: 100%;
   display: flex;
   overflow: hidden;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+  align-items: center !important;
+  justify-content: center !important;
 `;
 
 const CircleKeyframe = keyframes`
