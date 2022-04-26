@@ -137,11 +137,9 @@ const CircleImage = styled.img`
   }
   @media screen and (max-width: 500px) {
     width: 400px;
-    margin-bottom: 100px;
   }
   @media screen and (max-width: 400px) {
     width: 350px;
-    margin-bottom: 200px;
   }
 `;
 
@@ -155,11 +153,9 @@ const FooterImageWrap = styled.img`
   }
   @media screen and (max-width: 500px) {
     width: 250px;
-    margin-bottom: 100px;
   }
   @media screen and (max-width: 400px) {
     width: 200px;
-    margin-bottom: 200px;
   }
 `;
 
