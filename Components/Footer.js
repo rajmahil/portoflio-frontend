@@ -145,6 +145,8 @@ const CircleImage = styled.img`
 
 const FooterImageWrap = styled.img`
   width: 330px;
+  margin-top: auto;
+  margin-bottom: auto;
 
   @media screen and (max-width: 1120px) {
     width: 280px;
