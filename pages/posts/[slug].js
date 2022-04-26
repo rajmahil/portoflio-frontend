@@ -16,6 +16,8 @@ const BlogHeaderOverlay = styled.div`
 `;
 const BlogMainHeading = styled.h1`
   font-family: degular-display, sans-serif !important;
+  font-style: italic;
+  font-weight: 800;
   color: #fff;
   font-size: 4.2em;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);

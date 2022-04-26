@@ -13,6 +13,8 @@ const ProjectHeading = styled.h1`
   color: #fff;
   margin: 0px;
   font-family: degular-display, sans-serif !important;
+  font-style: italic;
+  font-weight: 800;
   margin-right: auto;
   line-height: 100px;
 
@@ -65,6 +67,7 @@ const HeaderDescriptionWrap = styled.div`
 `;
 const HeaderDescription = styled.p`
   font-size: 1.1em;
+  font-style: italic;
   color: #fff;
   font-weight: 300;
   margin: 0px;
