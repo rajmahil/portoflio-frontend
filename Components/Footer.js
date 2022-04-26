@@ -1,5 +1,5 @@
 import styled, { keyframes } from "styled-components";
-import circleText from "../public/Images/circleText.svg";
+import circleText from "../public/Images/circleText.png";
 import footerCircleImage from "../public/Images/footerCircleImage.png";
 import Image from "next/image";
 import rajMahilFooterLogo from "../public/Images/rajMahilFooterLogo.png";
@@ -110,8 +110,6 @@ const CircleImageWrap = styled.div`
   align-items: center;
   justify-content: center;
   position: relative;
-  font-family: ivypresto-display, serif !important;
-  font-weight: 800 !important;
 `;
 
 const CircleKeyframe = keyframes`
