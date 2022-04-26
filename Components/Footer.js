@@ -110,8 +110,8 @@ const CircleImageWrap = styled.div`
   align-items: center;
   justify-content: center;
   position: relative;
-  font-family: ivypresto-display, serif;
-  font-weight: 800;
+  font-family: ivypresto-display, serif !important;
+  font-weight: 800 !important;
 `;
 
 const CircleKeyframe = keyframes`
