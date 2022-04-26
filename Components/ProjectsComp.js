@@ -122,7 +122,7 @@ const IndexText = styled.div`
   margin-bottom: 5px;
 
   @media screen and (max-width: 500px) {
-    font-size: 2em;
+    font-size: 1.8em;
   }
 `;
 

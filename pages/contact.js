@@ -54,6 +54,8 @@ const ContactInfoWrap = styled.div`
 `;
 const ContactHeading = styled.h1`
   font-family: degular-display, sans-serif !important;
+  font-weight: 800;
+  font-style: italic;
   color: #fff;
   font-size: 3em;
   font-weight: 600;
@@ -67,6 +69,7 @@ const ContactHeading = styled.h1`
 const ContactSubheading = styled.text`
   font-family: lato, serif;
   font-size: 1.1em;
+  font-style: italic;
   color: #fff;
   font-weight: 300;
 `;
@@ -142,6 +145,8 @@ const SubmitButton = styled.button`
   width: auto;
   padding: 8px 28px;
   font-family: degular-display, sans-serif !important;
+  font-weight: 600;
+  font-style: italic;
   font-size: 1.5em;
   border: none;
   background: #000;
@@ -446,7 +451,7 @@ const ContactPage = () => {
             />
             {sucessMessage ? (
               <SucessMessage>
-                Your message has been sent. I`&apos;`ll be in touch soon! :)
+                Your message has been sent. I&apos;ll be in touch soon! :)
               </SucessMessage>
             ) : (
               <SubmitButton type="submit">Submit</SubmitButton>

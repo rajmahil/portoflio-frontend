@@ -34,6 +34,8 @@ const PageWrap = styled.div`
 `;
 const PageHeading = styled.h1`
   font-family: degular-display, sans-serif !important;
+  font-weight: 800;
+  font-style: italic;
   color: #fff;
   font-size: 6em;
   text-align: center;

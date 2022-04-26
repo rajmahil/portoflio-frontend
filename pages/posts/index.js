@@ -37,6 +37,8 @@ const PageContainer = styled.div`
 `;
 const PageHeading = styled.h1`
   font-family: degular-display, sans-serif !important;
+  font-weight: 800;
+  font-style: italic;
   color: #fff;
   font-size: 6em;
   text-align: center;
@@ -200,8 +202,8 @@ const Blog = () => {
               transition: { ease: "easeOut", duration: 0.8, delay: 0.2 },
             }}
           >
-            <PageSpan> This is the page</PageSpan> heading. I`&apos;`m suppose
-            to do write something.
+            <PageSpan> This is the page</PageSpan> heading. I&apos;m suppose to
+            do write something.
           </PageHeading>
           <PageParagraph
             as={motion.p}

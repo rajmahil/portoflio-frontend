@@ -8,6 +8,8 @@ const PageHeaderWrap = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: 800;
+  font-style: italic;
 `;
 
 const PageHeading = styled.h1`

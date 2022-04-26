@@ -128,7 +128,7 @@ const About = () => {
   }
 
   return (
-    <SectionContainer id="AboutSection" style={{ background: "#f9f9f9" }}>
+    <SectionContainer id="aboutMe" style={{ background: "#f9f9f9" }}>
       <AboutColWrap ref={ref}>
         <AboutCol>
           <AboutTextWrap>
