@@ -213,7 +213,7 @@ const ProjectDetails = ({ project }) => {
             <HeaderLabel>Services</HeaderLabel>
             {project.project_tags.map((tag, index) => (
               <>
-                <ProjectTags>{tag?.projectTag}</ProjectTags>
+                <ProjectTags>{tag.projectTag}</ProjectTags>
               </>
             ))}
           </HeaderDescriptionWrap>
