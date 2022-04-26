@@ -129,6 +129,8 @@ const CircleImage = styled.img`
   animation: rotation 15s infinite linear;
   animation-name: ${CircleKeyframe};
   position: absolute;
+  margin-top: auto;
+  margin-bottom: auto;
 
   @media screen and (max-width: 1120px) {
     width: 420px;
