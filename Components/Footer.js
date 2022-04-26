@@ -19,7 +19,6 @@ const FooterWrap = styled.footer`
   }
 
   @media screen and (max-width: 515px) {
-    height: 100vh;
     padding-top: 20px;
   }
 `;
@@ -139,7 +138,7 @@ const CircleImage = styled.img`
     width: 400px;
   }
   @media screen and (max-width: 400px) {
-    width: 350px;
+    width: 300px;
   }
 `;
 
