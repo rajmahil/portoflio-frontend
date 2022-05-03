@@ -167,7 +167,7 @@ const ProjectDetails = ({ project }) => {
   const md = new MarkdownIt({
     html: true,
   });
-  const htmlContent = md.render((project?.projectLongDescription).toString());
+  const htmlContent = md.render(project?.projectLongDescription);
 
   useEffect(() => {
     const getIndex = () =>
