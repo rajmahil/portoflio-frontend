@@ -20,6 +20,7 @@ const CtaWrap = styled.div`
   cursor: pointer;
   transition: all 0.3s ease-in;
   color: #fff;
+  z-index: 1000000;
 
   &:hover {
     transition: all 0.3s ease-in;
