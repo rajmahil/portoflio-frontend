@@ -164,15 +164,11 @@ const ProjectDetails = ({ project }) => {
 
   const [index, setIndex] = useState();
 
+  
 
-  var md = window?.markdownit({
+  const md = new MarkdownIt({
     html: true,
-  });;
-var result = md.render((project?.projectLongDescription)?.toString());
-
-  // const md = new MarkdownIt({
-  //   html: true,
-  // });
+  });
   // const htmlContent = md.render((project?.projectLongDescription)?.toString());
 
   useEffect(() => {
@@ -227,7 +223,7 @@ var result = md.render((project?.projectLongDescription)?.toString());
       </ProjectHeader>
       <MainContentWrap>
         <ContentWrap style={{ paddingBottom: "0px" }}>
-          <LongDescription dangerouslySetInnerHTML={{ __html: result }} />
+          <LongDescription dangerouslySetInnerHTML={{__html: md.render(project?.projectLongDescription)}}/>
         </ContentWrap>
         <ContentWrap>
           {project.projectImages.map((image, index) => (
