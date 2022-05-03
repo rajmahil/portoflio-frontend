@@ -165,7 +165,7 @@ const ProjectDetails = ({ project }) => {
   const [index, setIndex] = useState();
 
 
-  var md = window.markdownit({
+  var md = window?.markdownit({
     html: true,
   });;
 var result = md.render((project?.projectLongDescription)?.toString());
