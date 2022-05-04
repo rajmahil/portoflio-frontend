@@ -15,7 +15,7 @@ const termsandconditions = () => {
 
         <p>
           These terms and conditions outline the rules and regulations for the
-          use of Raj Mahil's Website, located at rajmahil.ca.
+          use of Raj Mahil&apos;s Website, located at rajmahil.ca.
         </p>
 
         <p>
@@ -47,7 +47,7 @@ const termsandconditions = () => {
 
         <p>
           We employ the use of cookies. By accessing Raj Mahil, you agreed to
-          use cookies in agreement with the Raj Mahil's Privacy Policy.{" "}
+          use cookies in agreement with the Raj Mahil&apos;s Privacy Policy.{" "}
         </p>
 
         <p>
@@ -196,7 +196,8 @@ const termsandconditions = () => {
           These organizations may link to our home page so long as the link: (a)
           is not in any way deceptive; (b) does not falsely imply sponsorship,
           endorsement or approval of the linking party and its products or
-          services; and (c) fits within the context of the linking party’s site.
+          services; and (c) fits within the context of the linking party&apos;s
+          site.
         </p>
 
         <p>
@@ -217,12 +218,12 @@ const termsandconditions = () => {
           <li>
             By use of any other description of our Website being linked to that
             makes sense within the context and format of content on the linking
-            party’s site.
+            party&apos;s site.
           </li>
         </ul>
 
         <p>
-          No use of Raj Mahil's logo or other artwork will be allowed for
+          No use of Raj Mahil&apos;s logo or other artwork will be allowed for
           linking absent a trademark license agreement.
         </p>
 
