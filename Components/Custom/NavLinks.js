@@ -42,9 +42,16 @@ const NavLinks = ({ href, text }) => {
       onMouseEnter={() => setIsHover(true)}
       onMouseLeave={() => setIsHover(false)}
     >
-      <Link passHref href={href}>
+      <a
+        passHref
+        href={href}
+        style={{
+          textDecoration: "none !important",
+          color: "#000 !important",
+        }}
+      >
         <NavLinkText>{text}</NavLinkText>
-      </Link>
+      </a>
       <TextLine isHover={isHover} />
     </NavLinkContainer>
   );

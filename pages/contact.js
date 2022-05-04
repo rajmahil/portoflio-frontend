@@ -73,7 +73,7 @@ const ContactSubheading = styled.text`
   color: #fff;
   font-weight: 300;
 `;
-const ContactWrapper = styled.div`
+const ContactWrapper = styled.nav`
   width: auto;
   margin-top: 0px;
   margin-bottom: 50px;
@@ -198,7 +198,7 @@ const ContactPage = () => {
     <>
       <Head>
         <title>
-          Raj Mahil Portfolio | Creative Web Developer & designer from Canada
+          Contact Me | Raj Mahil Portfolio | Creative Web Developer & designer
         </title>
         <meta name="description" content="meta description"></meta>
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
@@ -224,15 +224,15 @@ const ContactPage = () => {
                   <IconWrap>
                     <AiFillPhone />
                   </IconWrap>
-                  <DirectContactText>1+ 306-716-3130</DirectContactText>
+                  <DirectContactText>+1 306-716-3130</DirectContactText>
                 </DirectContactWrap>
               </Link>
-              <Link passHref href="mailto:hello@rajmahil.com">
+              <Link passHref href="mailto:hello@rajmahil.ca">
                 <DirectContactWrap>
                   <IconWrap>
                     <MdEmail />
                   </IconWrap>
-                  <DirectContactText>hello@rajmahil.com</DirectContactText>
+                  <DirectContactText>hello@rajmahil.ca</DirectContactText>
                 </DirectContactWrap>
               </Link>
               <Link passHref href="/">
@@ -247,9 +247,6 @@ const ContactPage = () => {
             <ContactWrapper
               style={{ flexDirection: "row", marginBottom: "5px" }}
             >
-              <SocialIconWrap>
-                <FaFacebookF />
-              </SocialIconWrap>
               <SocialIconWrap>
                 <AiOutlineInstagram />
               </SocialIconWrap>

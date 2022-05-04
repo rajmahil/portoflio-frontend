@@ -3,6 +3,7 @@ import circleText from "../public/Images/circleText.png";
 import footerCircleImage from "../public/Images/footerCircleImage.png";
 import Image from "next/image";
 import rajMahilFooterLogo from "../public/Images/rajMahilFooterLogo.png";
+import Link from "next/link";
 
 const FooterWrap = styled.footer`
   width: auto;
@@ -179,20 +180,60 @@ const Footer = () => {
             </CopyrightText>
           </FooterCols>
           <FooterCols>
-            <CopyrightText>Instagram</CopyrightText>
-            <CopyrightText>Twitter</CopyrightText>
+            <a
+              passhref
+              href="https://www.instagram.com/rajmahilportfolio/"
+              target="_blank"
+              style={{
+                textDecoration: "none !important",
+                color: "#000 !important",
+              }}
+            >
+              <CopyrightText>Instagram</CopyrightText>
+            </a>
+            <a
+              passhref
+              href="https://ca.linkedin.com/"
+              target="_blank"
+              style={{
+                textDecoration: "none !important",
+                color: "#000 !important",
+              }}
+            >
+              <CopyrightText>Linkedin</CopyrightText>
+            </a>
           </FooterCols>
           <FooterCols>
-            <CopyrightText>Privacy</CopyrightText>
-            <CopyrightText>Terms & Conditions</CopyrightText>
+            <a
+              passhref
+              href="/privacy"
+              style={{
+                textDecoration: "none !important",
+                color: "#000 !important",
+              }}
+            >
+              <CopyrightText>Privacy</CopyrightText>
+            </a>
+            <a
+              passhref
+              href="/termsandconditions"
+              style={{
+                textDecoration: "none !important",
+                color: "#000 !important",
+              }}
+            >
+              <CopyrightText>Terms & Conditions</CopyrightText>
+            </a>
           </FooterCols>
           <FooterCols style={{ borderRight: "none" }}>
-            <ImageWrap>
-              <Image
-                src={rajMahilFooterLogo}
-                alt="Raj Mahil Logo, Web designer in Saskatoon, SK"
-              />
-            </ImageWrap>
+            <Link passhref href="/">
+              <ImageWrap>
+                <Image
+                  src={rajMahilFooterLogo}
+                  alt="Raj Mahil Logo, Web designer in Saskatoon, SK"
+                />
+              </ImageWrap>
+            </Link>
           </FooterCols>
         </FooterContent>
       </FooterContainer>

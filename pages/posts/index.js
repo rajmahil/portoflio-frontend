@@ -176,15 +176,28 @@ const Blog = () => {
     <>
       <Head>
         <title>
-          Raj Mahil Portfolio | Creative Web Developer & designer from Canada
+          Blog | Raj Mahil Portfolio | Creative Web Developer & designer
         </title>
-        <meta name="description" content="meta description"></meta>
+        <meta
+          name="description"
+          content="Raj Mahil is a digital designer and web developer from Canada, passionate about creating memorable digital experiences. From eCommerce to mobile applications, Raj Mahil can help transform your vision into reality. Proudly operating from Saskatoon, SK, Canada."
+        ></meta>
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og:title" content="OG title" />
-        <meta property="og:url" content="url" />
-        <meta property="og:description" content="OG Description" />
-        <meta property="og:image" content="OGxxx Image" />
+        <meta
+          property="og:title"
+          content=" Raj Mahil Portfolio | Creative Web Developer and designer from
+          Saskatoon, SK, Canada"
+        />
+        <meta property="og:url" content="https://www.rajmahil.ca/" />
+        <meta
+          property="og:description"
+          content="Raj Mahil is a digital designer and web developer from Canada, passionate about creating memorable digital experiences. From eCommerce to mobile applications, Raj Mahil can help transform your vision into reality. Proudly operating from Saskatoon, SK, Canada."
+        />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/dmcsstcqf/image/upload/v1651693218/PortfolioOgImage_s0hwd6.png"
+        />
         <meta property="og:type" content="article" />
       </Head>
       <PageHeader>
@@ -202,8 +215,7 @@ const Blog = () => {
               transition: { ease: "easeOut", duration: 0.8, delay: 0.2 },
             }}
           >
-            <PageSpan> This is the page</PageSpan> heading. I&apos;m suppose to
-            do write something.
+            <PageSpan>Blogs</PageSpan> by Raj Mahil
           </PageHeading>
           <PageParagraph
             as={motion.p}
@@ -218,10 +230,9 @@ const Blog = () => {
               transition: { ease: "easeOut", duration: 0.8, delay: 0.0 },
             }}
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et
-            ultrices nisl. Nullam iaculis augue et erat congue rutrum. Aliquam
-            convallis neque eget tortor ultrices semper et eget risus.
-            Vestibulum at lectus.
+            The blog offers a different perspective on various subjects ranging
+            from business to the future of technology. The objective is to
+            inspire and inform. Enjoy!
           </PageParagraph>
         </PageContainer>
       </PageHeader>

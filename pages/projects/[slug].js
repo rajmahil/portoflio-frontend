@@ -167,7 +167,7 @@ const ProjectDetails = ({ project }) => {
   const md = new MarkdownIt({
     html: true,
   });
-  const htmlContent = md.render(project?.projectLongDescription);
+  const htmlContent = md.render((project?.projectLongDescription).toString());
 
   useEffect(() => {
     const getIndex = () =>
@@ -191,7 +191,7 @@ const ProjectDetails = ({ project }) => {
         <meta property="og:title" content={project?.titleTag} />
         <meta
           property="og:url"
-          content={`http://localhost:3000/projects/${project?.slug}`}
+          content={`https://www.rajmahil.ca/projects/${project?.slug}`}
         />
         <meta property="og:description" content={project?.metaDescription} />
         <meta property="og:image" content={project?.projectImage.url} />

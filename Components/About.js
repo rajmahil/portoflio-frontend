@@ -56,6 +56,7 @@ const AboutTextWrap = styled.div`
   align-items: flex-start;
   min-width: 350px;
   margin-right: 45px;
+  text-decoration: none !important;
 
   @media screen and (max-width: 1090px) {
     margin-top: 0px;
@@ -166,7 +167,11 @@ const About = () => {
               Do you have a project in mind? Contact me and let's discuss it
               over a coffee! :)
             </AboutParagraph>
-            <Link passHref href="/contact">
+            <a
+              passHref
+              href="/contact"
+              style={{ textDecoration: "none !important" }}
+            >
               <HeroButton
                 as={motion.div}
                 initial={{
@@ -177,7 +182,7 @@ const About = () => {
               >
                 Contact Me!
               </HeroButton>
-            </Link>
+            </a>
           </AboutTextWrap>
         </AboutCol>
         <AboutCol2
@@ -190,7 +195,7 @@ const About = () => {
         >
           <Image
             src={aboutMeImage}
-            alt="Raj Mahil Image, Web designer in Saskatoon, SK"
+            alt="Raj Mahil Image, Web designer and developer in Saskatoon, SK, Canada"
           />
         </AboutCol2>
       </AboutColWrap>

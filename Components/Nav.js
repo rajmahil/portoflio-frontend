@@ -46,7 +46,7 @@ const NavContainer = styled.div`
     padding: 0px 22px;
   }
 `;
-const NavLinksContainer = styled.div`
+const NavLinksContainer = styled.nav`
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -135,13 +135,13 @@ const Nav = ({ toggle, isOpen }) => {
           <ImageWrap>
             <Image
               src={RajLogo}
-              alt="Raj Mahil portfolio Logo, Web designer in Saskatoon, SK"
+              alt="Raj Mahil portfolio Logo, Web designer in Saskatoon, SK, Canada"
             />
           </ImageWrap>
         </Link>
         <NavLinksContainer>
           <NavLinksWrap navScroll={navScroll}>
-            <NavLinks href="#aboutMe" text="About" />
+            <NavLinks href="https://www.rajmahil.ca/#aboutMe" text="About" />
             <NavLinks href="/projects" text="Projects" />
             <NavLinks href="/posts" text="Blog" />
             <NavLinks href="/contact" text="Contact Me" />

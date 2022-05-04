@@ -1,5 +1,7 @@
 @import url('https://use.typekit.net/vha4vpu.css');
 
+
+
 html{
   scroll-behavior: smooth;
 }
@@ -11,6 +13,11 @@ body {
     font-style: normal;
    /* cursor: url("../public/Images/cursor.svg"), auto;	 */
   }
+
+
+a {
+  text-decoration: none !important;
+}
 
 
   .HeroContainer {

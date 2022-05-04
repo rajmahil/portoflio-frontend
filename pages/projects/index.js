@@ -189,15 +189,28 @@ const Projects = () => {
     <>
       <Head>
         <title>
-          Raj Mahil Portfolio | Creative Web Developer & designer from Canada
+          Projects | Raj Mahil Portfolio | Creative Web Developer & designer
         </title>
-        <meta name="description" content="meta description"></meta>
+        <meta
+          name="description"
+          content="Raj Mahil is a digital designer and web developer from Canada, passionate about creating memorable digital experiences. From eCommerce to mobile applications, Raj Mahil can help transform your vision into reality. Proudly operating from Saskatoon, SK, Canada."
+        ></meta>
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og:title" content="OG title" />
-        <meta property="og:url" content="url" />
-        <meta property="og:description" content="OG Description" />
-        <meta property="og:image" content="OG eewImage" />
+        <meta
+          property="og:title"
+          content=" Raj Mahil Portfolio | Creative Web Developer and designer from
+          Saskatoon, SK, Canada"
+        />
+        <meta property="og:url" content="https://www.rajmahil.ca/" />
+        <meta
+          property="og:description"
+          content="Raj Mahil is a digital designer and web developer from Canada, passionate about creating memorable digital experiences. From eCommerce to mobile applications, Raj Mahil can help transform your vision into reality. Proudly operating from Saskatoon, SK, Canada."
+        />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/dmcsstcqf/image/upload/v1651693218/PortfolioOgImage_s0hwd6.png"
+        />
         <meta property="og:type" content="article" />
       </Head>
       <PageWrap>
@@ -217,7 +230,7 @@ const Projects = () => {
               }}
             >
               <PageSpan> Creative Projects</PageSpan> that leave a positive
-              impact on our future
+              impact
             </PageHeading>
             <PageParagraph
               as={motion.p}
@@ -243,13 +256,7 @@ const Projects = () => {
           {data?.map((project, index) => (
             <ProjectContainer key={project.id}>
               <ProjectsWrap>
-                <ImageWrap
-                // style={{
-                //   background: `url(https://floating-hollows-19339.herokuapp.com${project.projectImage.url})`,
-                //   backgroundSize: "cover",
-                //   backgroundPosition: "center",
-                // }}
-                >
+                <ImageWrap>
                   <ProjectImage
                     src={project.projectImage.url}
                     alt={project.projectImage.alternativeText}

@@ -21,17 +21,28 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Web Designer in Saskatoon, SK | Raj Mahil Portfolio</title>
-        <meta name="description" content="meta description"></meta>
+        <title>
+          Raj Mahil | Creative web designer and developer in Saskatoon, Canada
+        </title>
+        <meta
+          name="description"
+          content="Raj Mahil is a digital designer and web developer from Canada, passionate about creating memorable digital experiences. From eCommerce to mobile applications, Raj Mahil can help transform your vision into reality. Proudly operating from Saskatoon, SK, Canada."
+        ></meta>
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           property="og:title"
-          content="Web Designer in Saskatoon, SK | Raj Mahil Portfolio"
+          content="Raj Mahil | Creative web designer and developer in Saskatoon, Canada"
         />
-        <meta property="og:url" content="www.rajmahil.com" />
-        <meta property="og:description" content="OG Description" />
-        <meta property="og:image" content="OG Image" />
+        <meta property="og:url" content="https://www.rajmahil.ca/" />
+        <meta
+          property="og:description"
+          content="Raj Mahil is a digital designer and web developer from Canada, passionate about creating memorable digital experiences. From eCommerce to mobile applications, Raj Mahil can help transform your vision into reality. Proudly operating from Saskatoon, SK, Canada."
+        />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/dmcsstcqf/image/upload/v1651693218/PortfolioOgImage_s0hwd6.png"
+        />
         <meta property="og:type" content="website" />
       </Head>
       <Hero />

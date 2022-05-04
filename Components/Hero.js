@@ -113,6 +113,7 @@ const IconWrap = styled.div`
 `;
 export const HeroButton = styled.div`
   font-family: lato, sans-serif;
+  text-decoration: none !important;
   background: #ff3e05;
   font-style: italic;
   padding: 10px 22px;
@@ -169,7 +170,7 @@ const Hero = () => {
         <ImageWrap as={motion.div} style={{ transform }}>
           <HeroImage
             src={heroSecondImage.src}
-            alt="Raj Mahil, Web designer and developer in Saskatoon, Saskatchewan, Canada"
+            alt="Raj Mahil Portfolio, Web designer and developer in Saskatoon, Saskatchewan, Canada"
           />
         </ImageWrap>
         <HeroText
@@ -200,7 +201,7 @@ const Hero = () => {
             transition: { ease: "easeOut", duration: 0.8, delay: 0.2 },
           }}
         >
-          Raj Mahil is a digital designer & developer from Canada, passionated
+          Raj Mahil is a digital designer & developer from Canada, passionate
           about creating memorable digital experiences
         </HeroParagraph>
         <Link passHref href="/contact">
