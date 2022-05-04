@@ -48,6 +48,11 @@ const ProjectTitle = styled.h3`
   margin-bottom: 10px;
   line-height: 90px;
 
+  @media screen and (max-width: 1530px){
+    font-size: 4.5em;
+    line-height: 80px;
+  }
+
   @media screen and (max-width: 1375px) {
     font-size: 4.2em;
     line-height: 70px;
