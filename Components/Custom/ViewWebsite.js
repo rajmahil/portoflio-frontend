@@ -29,7 +29,13 @@ const ViewWebsite = ({ text, href, black }) => {
   const [isHover, setIsHover] = useState(false);
 
   return (
-    <a style={{ textDecoration: "none" }} passHref href={href} target="_blank">
+    <a
+      style={{ textDecoration: "none" }}
+      passHref
+      href={href}
+      target="_blank"
+      rel="noreferrer"
+    >
       <ButtonWrap
         onMouseEnter={() => setIsHover(true)}
         onMouseLeave={() => setIsHover(false)}

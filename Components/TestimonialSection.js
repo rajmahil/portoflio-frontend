@@ -101,7 +101,7 @@ const TestimonialSection = () => {
               height: "160px",
             }}
           >
-            {slidesData[currentSlide].testimonial}"
+            {slidesData[currentSlide].testimonial}
           </SectionParagraph>
           <ClientTestWrap>
             <ClientLogoWrap>

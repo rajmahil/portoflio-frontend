@@ -105,7 +105,7 @@ const Contact = () => {
           }}
           animate={controls}
         >
-          <TextSpan>Let's talk</TextSpan> about your project? <br />
+          <TextSpan>Let&apos;s talk</TextSpan> about your project? <br />
         </SectionHeading>
         <EmailWrap
           as={motion.div}

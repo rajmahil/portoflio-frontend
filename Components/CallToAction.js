@@ -70,7 +70,7 @@ const CallToAction = () => {
           <IconWrap>
             <RiMessage3Fill />
           </IconWrap>
-          <CtaText>Let's Talk</CtaText>
+          <CtaText>Let&apos;s Talk</CtaText>
         </CtaContainer>
         <CtaLine isHover={isHover} />
       </CtaWrap>

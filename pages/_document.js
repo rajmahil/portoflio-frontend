@@ -24,11 +24,7 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta property="og:locale" content="en_us" />
-          <link
-            rel="icon"
-            type="image/svg"
-            href="https://floating-hollows-19339.herokuapp.com/uploads/SVG_Icon_ffb054b289.svg"
-          ></link>
+          <link rel="icon" type="image/svg" href="/images/SVGIcon.svg"></link>
           <link rel="stylesheet" href="https://use.typekit.net/vha4vpu.css" />
           <title>
             Raj Mahil | Creative web designer and developer in Saskatoon, Canada

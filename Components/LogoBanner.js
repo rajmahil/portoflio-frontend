@@ -44,8 +44,13 @@ const LogoBanner = () => {
         </SectionHeading>
       </div>
       <LogoGridWrap>
-        {LogoImages.map((image) => (
-          <LogoImageWrap ref={ref} as={motion.div} animate={animation}>
+        {LogoImages.map((image, idx) => (
+          <LogoImageWrap
+            ref={ref}
+            as={motion.div}
+            animate={animation}
+            key={idx}
+          >
             <Image src={image} />
           </LogoImageWrap>
         ))}

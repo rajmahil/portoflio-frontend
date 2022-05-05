@@ -48,7 +48,7 @@ const ProjectTitle = styled.h3`
   margin-bottom: 10px;
   line-height: 90px;
 
-  @media screen and (max-width: 1530px){
+  @media screen and (max-width: 1530px) {
     font-size: 4.5em;
     line-height: 80px;
   }
@@ -224,7 +224,7 @@ const ProjectsComp = ({
           <ServicesHeading>Services</ServicesHeading>
           <TagsContainer>
             {projectTags.map((tag, idx) => (
-              <TagsWrap>{tag.projectTag}</TagsWrap>
+              <TagsWrap key={idx}>{tag.projectTag}</TagsWrap>
             ))}
           </TagsContainer>
           <BtnWrap>

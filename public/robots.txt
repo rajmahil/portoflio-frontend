@@ -1,6 +1,9 @@
-Sitemap: https://www.rajmahil.ca/posts-sitemap
-
+# *
 User-agent: *
-Allow: /*
+Allow: /
 
-Disallow: /api/*
+# Host
+Host: https://www.rajmahil.ca/
+
+# Sitemaps
+Sitemap: https://www.rajmahil.ca/sitemap.xml

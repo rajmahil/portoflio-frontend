@@ -184,6 +184,7 @@ const Footer = () => {
               passhref
               href="https://www.instagram.com/rajmahilportfolio/"
               target="_blank"
+              rel="noreferrer"
               style={{
                 textDecoration: "none !important",
                 color: "#000 !important",
@@ -195,6 +196,7 @@ const Footer = () => {
               passhref
               href="https://ca.linkedin.com/"
               target="_blank"
+              rel="noreferrer"
               style={{
                 textDecoration: "none !important",
                 color: "#000 !important",
@@ -204,7 +206,7 @@ const Footer = () => {
             </a>
           </FooterCols>
           <FooterCols>
-            <a
+            <Link
               passhref
               href="/privacy"
               style={{
@@ -213,8 +215,8 @@ const Footer = () => {
               }}
             >
               <CopyrightText>Privacy</CopyrightText>
-            </a>
-            <a
+            </Link>
+            <Link
               passhref
               href="/termsandconditions"
               style={{
@@ -223,7 +225,7 @@ const Footer = () => {
               }}
             >
               <CopyrightText>Terms & Conditions</CopyrightText>
-            </a>
+            </Link>
           </FooterCols>
           <FooterCols style={{ borderRight: "none" }}>
             <Link passhref href="/">

@@ -197,6 +197,7 @@ const Projects = () => {
               url={project.projectImage.url}
               projectTags={project.project_tags}
               alt={project.projectImage.alternativeText}
+              key={index}
             />
           ))}
           <BtnWrap>

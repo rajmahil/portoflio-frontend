@@ -164,10 +164,10 @@ const About = () => {
               accept and celebrate differences instead of ridicule them. Art and
               great design offer a vehicle for creating understanding among
               individuals. <br /> <br />
-              Do you have a project in mind? Contact me and let's discuss it
-              over a coffee! :)
+              Do you have a project in mind? Contact me and let&apos;s discuss
+              it over a coffee! :)
             </AboutParagraph>
-            <a
+            <Link
               passHref
               href="/contact"
               style={{ textDecoration: "none !important" }}
@@ -182,7 +182,7 @@ const About = () => {
               >
                 Contact Me!
               </HeroButton>
-            </a>
+            </Link>
           </AboutTextWrap>
         </AboutCol>
         <AboutCol2
