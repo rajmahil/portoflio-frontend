@@ -1,0 +1,6 @@
+Sitemap: https://www.rajmahil.ca/posts-sitemap
+
+User-agent: *
+Allow: /*
+
+Disallow: /api/*
