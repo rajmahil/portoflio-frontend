@@ -220,7 +220,7 @@ const ProjectsComp = ({
         </ColLeft>
         <ColRight>
           <ProjectTitle isHover={isHover}>{title}</ProjectTitle>
-          <ProjectDescription>{description}</ProjectDescription>``
+          <ProjectDescription>{description}</ProjectDescription>
           <ServicesHeading>Services</ServicesHeading>
           <TagsContainer>
             {projectTags.map((tag, idx) => (
