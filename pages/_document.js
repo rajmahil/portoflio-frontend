@@ -24,11 +24,13 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta property="og:locale" content="en_us" />
-          <link rel="icon" type="image/svg" href="/images/SVGIcon.svg"></link>
+          <link
+            rel="icon"
+            type="image/svg"
+            href="https://res.cloudinary.com/dmcsstcqf/image/upload/v1651810735/favicon_qaqsky.png"
+          ></link>
           <link rel="stylesheet" href="https://use.typekit.net/vha4vpu.css" />
-          <title>
-            Raj Mahil | Creative web designer and developer in Saskatoon, Canada
-          </title>
+
           <meta
             name="description"
             content="Raj Mahil is a digital designer and web developer from Canada, passionate about creating memorable digital experiences. From eCommerce to mobile applications, Raj Mahil can help transform your vision into reality. Proudly operating from Saskatoon, SK, Canada."
